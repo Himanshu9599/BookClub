@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    /* border: 2px double black; */
+    background-image: url(../images/book3.jpeg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+    /* width:100%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+} 
+
+.logreg{
+    margin: 20px;
+    font-size: 2rem;
+}
+
+.register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 1.7rem;
+    /* border: 1px solid black; */
+    /* box-shadow: 2px 3px 4px goldenrod; */
+    border-radius: 10px;
+    
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 1.7rem;
+    /* box-shadow: 2px 3px 4px silver; */
+    border-radius: 10px;
+}
+
+.main {
+    font-size: 1.2rem;
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: 3px 5px 6px black;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    padding: 10px;
+    background-image: url(../images/book5.jpeg);
+    background-position: center;
+    border-radius: 5px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 35px;
+    /* background-color: rgb(249, 179, 3); */
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.submit {
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 10px;
+    background: burlywood;
+} 
+
+.edit{
+    background-color: #f69c00;
+}
+
+
+.home {
+    display: block;
+    margin: 10px;
+    padding: 20px;
+    font-size: 1.3rem;
+}
+
+.paragraf {
+    margin: 20px;
+    font-size: 2rem;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.logout {
+    font-size: 1.2rem;
+    margin: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-image: url(../images/book3.jpeg);
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.table {
+    width: 100%;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    align-content: space-between;
+    padding-top: 20px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: rgb(24, 25, 25);
+    background-image: url(../images/book5.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.container {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    background-image: url(../images/book1.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h3 {
+    text-shadow: 2px 2px 8px #f69c00;
+    margin: 20px;
+}
+
+h2 {
+    padding-bottom: 20px;
+    color: rgb(58, 57, 8);
+    text-shadow: 2px 2px 8px #f69c00;
+}
+
+.delete a {
+    border:none;
+    background-color: rgb(59, 46, 4);
+    color: rgb(248, 141, 75);
+    text-decoration: underline;
+    font-size: large;
+    padding: 6px;
+    border-radius: 5px;
+}
