@@ -32,8 +32,8 @@ Books are avalaible to borrow and return.
 ## Features
 - Login and registration with validation and Bcrypt for password security
 - Thoughts about book - AKA reviews 
-- Return function
 - Borrow function
+- Return function
 - Edit function
 - Delete function
 
@@ -43,7 +43,7 @@ Books are avalaible to borrow and return.
 Login and Registration page with designated validations 
 ![Login and Registration](./src/main/resources/static/images/screenshots/LOGREG.png)
 
-Main Homepage where only registered and logged in user can see books created by other users. 
+Main Homepage where only registered and Logged in User can see books created by other users. 
 ![All books](./src/main/resources/static/images/screenshots/welcome.png)
 
 
