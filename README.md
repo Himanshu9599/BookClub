@@ -1,85 +1,80 @@
-# login reg demo
+# Book Online Store - online book library to borrow, return and write thoughts about a books
 
-- [ ] set config in [application.properties](src/main/resources/application.properties)
+## Table of Contents
+- 
+  - [Table of Contents](#table-of-contents)
+  - [General Information](#general-information)
+  - [Technologies Used](#technologies-used)
+  - [Features](#features)
+  - [Screenshots](#screenshots)
+  - [Setup and Usage](#setup-and-usage)
+  - [Project Status](#project-status)
+  - [Room for Improvement](#room-for-improvement)
+  - [Contact](#contact)
 
-- [ ] update [pom.xml](pom.xml)
+## General Information
+This project is a full-stack web application built using Java, Css, Html, Spring, MySQL
 
-- [ ] add view [index.jsp](src/main/webapp/WEB-INF/index.jsp)
+After registering an account user can create a new book to their Online Library bookshelve with ability to edit or delete a book.
+New user has to register to be able to see how many books are avalaible.
+Books are avalaible to borrow and return.
+<br>
 
-```html
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<!-- c:out ; c:forEach etc. --> 
-<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
-<!-- Formatting (dates) --> 
-<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"  %>
-<!-- form:form -->
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
-<!-- for rendering errors on PUT routes -->
-<%@ page isErrorPage="true" %>
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Tacos</title>
-    <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/main.css"> <!-- change to match your file/naming structure -->
-    <script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/js/app.js"></script><!-- change to match your file/naming structure -->
-</head>
-<body>
-    ${userId}
-   <div class="container">
-<h1  class="align-content-center">Login and Registration</h1>
-    <div class="row">
-        <div class="col">
-            <h2>Register</h2>
-            <form:form action="/register" method="post" modelAttribute="newUser">
-                <div>
-                    <div class="form-group">
-                    <form:label path="userName">userName</form:label>
-                    <form:input  class="form-control" path="userName"/>
-                    <form:errors path="userName"/>
-                    </div>
-                    <div class="form-group">
-                    <form:label path="email">email</form:label>
-                    <form:input  class="form-control" path="email"/>
-                    <form:errors path="email"/>
-                    </div>
-                    <div>
-                    <form:label path="password">password</form:label>
-                    <form:input  class="form-control" path="password"/>
-                    <form:errors path="password"/>
-                    </div>
-                    <div>
-                    <form:label path="confirm">confirm password</form:label>
-                    <form:input  class="form-control" path="confirm"/>
-                    <form:errors path="confirm"/>
-                    </div>
-                </div>
-                <input type="submit" value="register">
-            </form:form>
-        </div>
-        <div class="col">
-            <h2>Login</h2>
-            <div class="form-group">
-                <form:form action="/login" method="post" modelAttribute="newLogin">
-                    <div class="form-group">
-                        <form:label path="email">email</form:label>
-                        <form:input  class="form-control" path="email"/>
-                        <form:errors path="email"/>
-                    </div>
-                    <div>
-                        <form:label path="password">password</form:label>
-                        <form:input  class="form-control" path="password"/>
-                        <form:errors path="password"/>
-                    </div>
-                <input type="submit" value="login">
-                </form:form>
-            </div>
-        </div>
+## Technologies Used
+- Java
+- MySQL 
+- Bcrypt
+- Spring
+- Html5
+- CSS
 
-    </div>
-</div>
-</body>
-</html>
-```
+
+## Features
+- Login and registration with validation and Bcrypt for password security
+- Thoughts about book - AKA reviews 
+- Return function
+- Borrow function
+- Edit function
+- Delete function
+
+<br>
+
+## Screenshots
+Login and Registration page with designated validations 
+![Login and Registration](./src/main/resources/static/images/screenshots/LOGREG.png)
+
+Main Homepage where only registered and logged in user can see books created by other users. 
+![All books](./src/main/resources/static/images/screenshots/welcome.png)
+
+
+User who is Log In, will see his/her/their name and can see books that are able to be borrowed. 
+Return button will return back to the shelve.
+![Return borrow](./src/main/resources/static/images/screenshots/borrowreturn.png)
+
+
+User can click on any avalaible book and read thoughts from the owner of the book
+![Show book](./src/main/resources/static/images/screenshots/show%20book.png)
+
+Edit, Update or Delete book is possible only by the owner
+![Edit/Update Profile](./src/main/resources/static/images/screenshots/edit-update.png)
+
+Add a new book to the shelf for other users to be able to borrow and read section (with validation)
+![Add a book](./src/main/resources/static/images/screenshots/addbook.png)
+
+
+<br>
+
+## Setup and Usage
+Project can be run in editing code such as Vs Code, Sublime etc . . . 
+  - Spring tool must be installed in editing code
+  - Spring (STS) must be download in your app on your device for website to run on localhost 8080
+  - run Spring tool icon on your editing code and after open localhost8080
+
+<br>
+
+## Project Status
+Project MVP: Complete. However, additional features planned!
+
+<br>
+## Contact
+Created by [@veronikakontos](https://www.linkedin.com/in/veronika-kontogiannopoulos/) - feel free to contact me!
