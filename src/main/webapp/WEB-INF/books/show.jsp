@@ -28,6 +28,7 @@
         <h3>Here are ${book.user.userName}' thoughts:</h3>
         <br>
         <p>${book.thoughts}</p>
+        <br>
 
         <c:if test="${book.user.id ==  userId}">
             <td>
@@ -40,7 +41,7 @@
             </td>
         </c:if>
         
-        <a href="/books">Back to shelves</a>
+        <a href="/books">☞ Back to shelves</a>
 
 
 </div>
