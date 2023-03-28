@@ -76,6 +76,7 @@ Project can be run in editing code such as Vs Code, Sublime etc . . .
 Project MVP: Complete. However, additional features planned!
 
 <br>
+
 ## Contact
 Created by [@veronikakontos](https://www.linkedin.com/in/veronika-kontogiannopoulos/) - feel free to contact me!
 
