@@ -66,7 +66,7 @@ Add a new book to the shelf for other users to be able to borrow (with validatio
 <br>
 
 ## Setup and Usage
-Project can be run in editing code such as Vs Code, Sublime etc . . . 
+Project can be run in editing code such as VS Code, Sublime etc . . . 
   - Spring tool must be installed in editing code
   - Spring (STS) must be download in your app on your device for website to run on localhost 8080
   - run Spring tool icon on your editing code and after open localhost8080
