@@ -40,6 +40,7 @@ Books are avalaible to borrow and return.
 <br>
 
 ## Screenshots
+
 Login and Registration page with designated validations 
 ![Login and Registration](./src/main/resources/static/images/screenshots/LOGREG.png)
 
@@ -58,7 +59,7 @@ User can click on any avalaible book and read thoughts from the owner of the boo
 Edit, Update or Delete book is possible only by the owner
 ![Edit/Update Profile](./src/main/resources/static/images/screenshots/edit-update.png)
 
-Add a new book to the shelf for other users to be able to borrow and read section (with validation)
+Add a new book to the shelf for other users to be able to borrow (with validation)
 ![Add a book](./src/main/resources/static/images/screenshots/addbook.png)
 
 
