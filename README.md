@@ -24,8 +24,8 @@ Books are avalaible to borrow and return.
 - Java
 - MySQL 
 - Bcrypt
-- Spring
-- Html5
+- Spring Boot
+- HTML5
 - CSS
 
 
