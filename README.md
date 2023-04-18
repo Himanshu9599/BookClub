@@ -1,4 +1,4 @@
-# Book Online Store - online book library to borrow, return and write personal thoughts about a books
+# Online Book store - online book library to borrow, return and write personal thoughts about a books
 
 ## Table of Contents
 - 
