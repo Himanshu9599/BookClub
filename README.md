@@ -11,7 +11,7 @@
   - [Project Status](#project-status)
   - [Room for Improvement](#room-for-improvement)
   - [Contact](#contact)
-  - 
+  
 
 ## General Information
 This project is a full-stack web application built using Java, Css, Html, Spring, MySQL
