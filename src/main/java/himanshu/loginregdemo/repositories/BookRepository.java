@@ -1,11 +1,11 @@
-package veronika.loginregdemo.repositories;
+package himanshu.loginregdemo.repositories;
 
 
 import java.util.List;
 
 import org.springframework.data.repository.CrudRepository;
 
-import veronika.loginregdemo.models.Book;
+import himanshu.loginregdemo.models.Book;
 
 
 public interface BookRepository extends CrudRepository<Book, Long>{

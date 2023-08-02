@@ -1,4 +1,4 @@
-package veronika.loginregdemo.services;
+package himanshu.loginregdemo.services;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import veronika.loginregdemo.models.Book;
-import veronika.loginregdemo.repositories.BookRepository;
+import himanshu.loginregdemo.models.Book;
+import himanshu.loginregdemo.repositories.BookRepository;
 
 
 @Service

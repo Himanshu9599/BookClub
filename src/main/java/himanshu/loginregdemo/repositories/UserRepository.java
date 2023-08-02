@@ -1,11 +1,11 @@
-package veronika.loginregdemo.repositories;
+package himanshu.loginregdemo.repositories;
 
 import java.util.Optional;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import veronika.loginregdemo.models.User;
+import himanshu.loginregdemo.models.User;
 
 // .. imports .. //
     

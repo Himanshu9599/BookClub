@@ -1,4 +1,4 @@
-package veronika.loginregdemo.controllers;
+package himanshu.loginregdemo.controllers;
 
 import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import veronika.loginregdemo.models.LoginUser;
-import veronika.loginregdemo.models.User;
-import veronika.loginregdemo.services.UserService;
+import himanshu.loginregdemo.models.LoginUser;
+import himanshu.loginregdemo.models.User;
+import himanshu.loginregdemo.services.UserService;
 
 // .. don't forget to include all your imports! ..
     

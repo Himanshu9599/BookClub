@@ -1,4 +1,4 @@
-package veronika.loginregdemo.controllers;
+package himanshu.loginregdemo.controllers;
 
 import java.util.List;
 // import java.util.Optional;
@@ -18,10 +18,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 // import org.springframework.web.bind.annotation.RequestParam;
 
-import veronika.loginregdemo.models.Book;
-import veronika.loginregdemo.services.BookService;
-// import veronika.loginregdemo.services.UserService;
-import veronika.loginregdemo.services.UserService;
+import himanshu.loginregdemo.models.Book;
+import himanshu.loginregdemo.services.BookService;
+import himanshu.loginregdemo.services.UserService;
 
 //!CREATE tells Spring that this java class will be a controller
 @Controller

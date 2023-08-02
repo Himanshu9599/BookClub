@@ -1,4 +1,4 @@
-package veronika.loginregdemo.models;
+package himanshu.loginregdemo.models;
 
 import java.util.List;
 import javax.persistence.Entity;

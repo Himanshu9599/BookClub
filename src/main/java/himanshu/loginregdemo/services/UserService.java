@@ -1,4 +1,4 @@
-package veronika.loginregdemo.services;
+package himanshu.loginregdemo.services;
 
 import java.util.Optional;
 
@@ -7,9 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.validation.BindingResult;
 
-import veronika.loginregdemo.models.LoginUser;
-import veronika.loginregdemo.models.User;
-import veronika.loginregdemo.repositories.UserRepository;
+import himanshu.loginregdemo.models.LoginUser;
+import himanshu.loginregdemo.models.User;
+import himanshu.loginregdemo.repositories.UserRepository;
     
 
     
